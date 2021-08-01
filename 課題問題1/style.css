@@ -1,0 +1,179 @@
+/* 全ての画面サイズで適用される設定 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.contentsbox1 {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contents1 {
+  width: 300px;
+  height: 280px;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.contents-image1 {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 150px;
+  width: 280px;
+}
+
+.contentsbox2 {
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contents2 {
+  width: 300px;
+  height: 280px;
+  padding: 10px;
+  background-color: #eeeeee;
+}
+
+.contents-image2 {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 150px;
+  width: 280px;
+}
+
+.contentsbox3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contents3 {
+  width: 300px;
+  height: 280px;
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+.contents-image3 {
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom center;
+  height: 150px;
+  width: 280px;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.step {
+  background-color: #ff9a4b;
+  color: #ffffff;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.blog-text {
+  text-indent: 0;
+  text-align: left;
+}
+
+.text {
+  font-size: 10px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+.relative {
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    display: block;
+    max-width: 768px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .contentsbox1 {
+    background-position: center;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+
+  .contents1 {
+    width: 100%;
+    background-position: center;
+  }
+
+  .contents-image1 {
+    background-size: cover;
+    width: 100%;
+  }
+
+  .contentsbox2 {
+    background-position: center;
+    padding: 2%;
+    margin-bottom: 30px;
+  }
+
+  .contents2 {
+    width: 100%;
+    background-position: center;
+  }
+
+  .contents-image2 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  .contentsbox3 {
+    background-position: center;
+    padding: 2%;
+  }
+
+  .contents3 {
+    width: 100%;
+  }
+
+  .contents-image3 {
+    width: 100%;
+    background-size: cover;
+    background-position: bottom center;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
